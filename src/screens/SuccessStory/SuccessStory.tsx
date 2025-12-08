@@ -126,7 +126,7 @@ const SuccessStory: React.FC = () => {
   return (
     <>
       <header className="ss-header">
-          <Header title="Oceans" subtitle="Success stories and case studies" />
+          <Header title="Success Stories That Inspire Confidence" subtitle="See how companies around the world have grown faster, worked smarter, and built stronger teams through Talentphere’s trusted global talent." />
     
         </header>
       <section className="success-stories" aria-labelledby="success-stories-heading">

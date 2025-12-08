@@ -12,8 +12,8 @@ const Home: React.FC = () => {
   return (
     <div>
       <Header
-        title="Hire proactive global talent for your team"
-        subtitle="Outsourcing has a bad reputation. We're fixing it with highly experienced and motivated talent, while saving you up to 80% of a US hire."
+        title="Find Exceptional Global Talent for Your Growing Team"
+        subtitle="Hire great global talent that blends easily with your team and keeps your costs low."
         buttonText="Hire With Talentphere"
         buttonLink="/hire"
       />

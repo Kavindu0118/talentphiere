@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css'; 
 import logo from './logo.png'; 
+import logo2 from './logo2.png';
 
 const FooterSection: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -28,11 +29,7 @@ const FooterSection: React.FC = () => {
           <div className="footer-column footer-about">
             <div className="footer-logo-section">
               <div className="footer-logo-circle">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-                  <circle cx="20" cy="20" r="16" stroke="white" strokeWidth="2" fill="none"/>
-                  <circle cx="20" cy="20" r="10" stroke="white" strokeWidth="2" fill="none"/>
-                  <circle cx="20" cy="20" r="4" fill="white"/>
-                </svg>
+                <img src={logo2} alt="Talentphere Logo" className="footer-logo" />
               </div>
               <span className="footer-logo-text">TALENTPHERE</span>
             </div>
